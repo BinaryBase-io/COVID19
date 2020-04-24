@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/lang_swith_btn"
+        android:icon="@drawable/ic_translate_white_24dp"
+        android:title="Change Language"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/top_menu_about_btn"
+        android:icon="@drawable/ic_info_white_24dp"
+        android:title="@string/about"
+        app:showAsAction="always" />
+</menu>
