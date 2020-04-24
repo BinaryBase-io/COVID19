@@ -19,11 +19,8 @@ android:
     # Additional components
     - extra-google-m2repository
     - extra-android-m2repository
-before_script:
-    # Prepare pre-accepted licenses to not be promted at installation
-   - mkdir "$ANDROID_HOME/licenses" || true
-   - cp ./licenses/* "$ANDROID_HOME/licenses/"
 before_install:
+    - mkdir "$ANDROID_HOME/licenses" || true
     - yes | sdkmanager "platforms;android-28"
     - chmod +x gradlew
 script:
