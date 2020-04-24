@@ -25,3 +25,6 @@ before_install:
     - chmod +x gradlew
 script:
     - ./gradlew build check
+    
+notifications:
+  slack: squad-0:0qnrxNQyfItKkwdV9EXyhKzr
